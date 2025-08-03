@@ -1,1 +1,1 @@
-Pagina no link: https://adolescenciaeescola.netlify.app/
+Pagina nesse link: https://adolescenciaeescola.netlify.app/
