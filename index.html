@@ -62,7 +62,6 @@
     </section>
 
 
-       <!-- Nova seção: Vínculo professor-aluno -->
     <section id="vinculo" class="topico">
       <h2>Desafios e a importância do vínculo professor-aluno</h2>
       <p>Desafiam a construir novos mecanismos de pensamento e a ter novas atitudes frente a essas tarefas, e de mesmo modo se encontra o tema abordado.</p>
@@ -76,7 +75,7 @@
 
 
        
-    <!-- Nova seção: Ausência e aprendizado -->
+
     <section id="ausencia" class="topico">
       <h2>O que a ausência nas aulas afeta o aprendizado do aluno?</h2>
       <p>A presença constante na escola é fundamental para o desenvolvimento acadêmico.</p>
@@ -211,32 +210,9 @@ Conseguem perceber? A relação professor aluno é fundamental para o desenvolvi
   </main>
 
 
-  
-
-  <script>
-    function toggleTexto(id) {
-      const texto = document.getElementById(id);
-      texto.classList.toggle('mostrar');
-    }
-
-
-  const menuBtn = document.getElementById('menu-hamburguer');
-  const navLinks = document.getElementById('nav-links');
-
-  menuBtn.addEventListener('click', () => {
-    navLinks.classList.toggle('aberto');
-  });
-
-  // Fecha o menu ao clicar em qualquer link (opcional e recomendável em mobile)
-  const links = navLinks.querySelectorAll('a');
-  links.forEach(link => {
-    link.addEventListener('click', () => {
-      navLinks.classList.remove('aberto');
-    });
-  });
-</script>
-
+  <script src="script.js"></script>
 
   
 </body>
+
 </html>
